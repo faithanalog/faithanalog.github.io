@@ -1,0 +1,57 @@
+---
+---
+@import "site";
+
+img {
+    border: 0.1em solid $background-accent;
+}
+
+img.right {
+    float: right;
+    margin-left: 1em;
+}
+
+img.left {
+    float: left;
+    margin-right: 0.5em;
+}
+
+img.full {
+    width: 100%;
+}
+
+pre {
+    font-family: monospace;
+    line-height: 1.45;
+    overflow-x: auto;
+    background-color: $background-accent;
+    padding: 0.2em;
+    border-radius: 2px;
+}
+
+code {
+    font-family: monospace;
+}
+
+pre code {
+    font-size: 0.9em;
+    padding: 0.2em;
+    display: block;
+}
+
+table {
+    width: 100%;
+    outline: none;
+    border-spacing: 0px;
+}
+
+th, td {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+table, th, td {
+    border: 1px solid $background-accent;
+}
