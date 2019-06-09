@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Faith Artemis Alderson"
+title: "Artemis"
 ---
 
 ## Projects
