@@ -9,7 +9,7 @@ url: "https://artemis.sh" # the base hostname & protocol for your site, e.g. htt
 repository: "faithanalog/faithanalog.github.io"
 
 # SEO stuff
-description: "artemis's blog and projects"
+description: "artemis's projects and blogs"
 author:
   twitter: "artemis_coven"
 twitter:
