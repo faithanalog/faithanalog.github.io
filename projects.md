@@ -18,7 +18,7 @@ title: Projects
 
 ### Radio
 
-- [vaportrail](http://vaportrail.io/) - binary radio transmissions with a raspberry pi
+- [vaportrail](https://github.com/inguardians/VaporTrail) - binary radio transmissions with a raspberry pi
 - [amppaint](https://github.com/faithanalog/amppaint) - RF spectral painting with a raspberry pi
 - [pocsag-encoder](https://github.com/faithanalog/pocsag-encoder) - heavily commented C implementation of [POCSAG](https://en.wikipedia.org/wiki/POCSAG) encoding
 - [pagerenc](https://github.com/faithanalog/pagerenc) - haskell implementation of [POCSAG](https://en.wikipedia.org/wiki/POCSAG) and [FLEX](https://en.wikipedia.org/wiki/FLEX_%28protocol%29) encoding
