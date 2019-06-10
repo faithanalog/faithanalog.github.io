@@ -1,12 +1,5 @@
 ---
 layout: default
-title: Contact Us
+title: Contact
 ---
-
-- [github - faithanalog](https://github.com/faithanalog)
-- [twitter - @artemis\_coven](https://twitter.com/artemis_coven)
-- [telegram - @artemis\_coven](https://t.me/artemis_coven)
-- [ko-fi - faithalderson](https://ko-fi.com/faithalderson)
-
-
-
+{% include contact.md %}

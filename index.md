@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "Artemis"
+title: Artemis
 ---
 
-## Projects
+## Highlighted Projects
 
-- [brainfuck in sed]()
+- [vaportrail](http://vaportrail.io/) - binary radio transmissions with a raspberry pi
+- [amppaint](https://github.com/faithanalog/amppaint) - RF spectral painting with a raspberry pi
+- [colorz](https://github.com/faithanalog/colorz) - z80 assembly puzzle game with a 4x3 pixel resolution
+- [scala image compressor](https://github.com/faithanalog/ImageCompress) - barebones [discrete cosine transform](https://en.wikipedia.org/wiki/Discrete_cosine_transform) implementation
 
 ## Contact
 
-- [github - faithanalog](https://github.com/faithanalog)
-- [twitter - @artemis\_coven](https://twitter.com/artemis_coven)
-- [telegram - @artemis\_coven](https://t.me/artemis_coven)
-- [ko-fi - faithalderson](https://ko-fi.com/faithalderson)
+{% include contact.md %}
 
 ## Blog
 

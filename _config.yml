@@ -5,11 +5,30 @@
 # in the templates via {{ site.myvariable }}.
 title: artemis.sh
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://artemis.sh" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "faithanalog/faithanalog.github.io"
+
+# SEO stuff
+description: "artemis's blog and projects"
+author:
+  twitter: "artemis_coven"
+twitter:
+  username: "artemis_coven"
+  card: summary
+logo: "https://artemis.sh/assets/images/logo.png"
+social:
+  name: Artemis
+  links:
+    - https://github.com/faithanalog
+    - https://twitter.com/artemis_coven
+    - https://t.me/artemis_coven
+    - https://ko-fi.com/faithalderson
 
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 sass:
   style: compressed
 
