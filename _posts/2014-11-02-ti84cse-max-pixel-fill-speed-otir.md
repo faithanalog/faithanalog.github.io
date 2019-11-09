@@ -74,8 +74,8 @@ would take.
 
 ## The Calculations
 
-The screen is 320x240 pixels large. Each pixel is 2 bytes. 320 * 240 * 2 =
-153600. 153600 / 256 = 600, so D = 600 and E = 0. 600 * 6409 = 3,845,400.
+The screen is 320x240 pixels large. Each pixel is 2 bytes. 320 * 240 * 2 = 153600.
+153600 / 256 = 600, so D = 600 and E = 0. 600 * 6409 = 3,845,400.
 
 To update the entire screen with this method it takes 0.25636 seconds. Not very
 promising, but here's a table of screen percentages vs how much time it takes
