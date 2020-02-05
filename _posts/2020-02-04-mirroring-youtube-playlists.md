@@ -158,3 +158,8 @@ broader range of IP addresses.
 
 And that's it!  The script is pretty well commented I feel, but if you have any
 questions about it, [feel free to ask!](/contact.html)
+
+Thanks to everyone on the fediverse who helped me iterate on this script and
+iron out the details. ❤️
+
+– artemis
