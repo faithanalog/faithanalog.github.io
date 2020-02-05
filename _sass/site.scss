@@ -56,3 +56,20 @@ a:visited {
 time {
     font-weight: bold;
 }
+
+table {
+    width: 100%;
+    outline: none;
+    border-spacing: 0px;
+}
+
+th, td {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+table, th, td {
+    border: 1px solid $background-accent;
+}
