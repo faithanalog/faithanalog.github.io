@@ -47,7 +47,7 @@ you want to use in another file, for example, `proxies.txt`
 example.com:1080
 ```
 
-Then, you can run my script!
+Then you can run my script!
 
 ```
 # If you don't have any proxies to use
