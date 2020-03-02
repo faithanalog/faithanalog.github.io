@@ -14,7 +14,7 @@ makes the display routine simpler.
 
 ## Conversion to BCD
 
-This routine converts a little endian value to a little endian BCD value.
+This routine converts a little endian value to a little endian BCD value. It's written for [brass](http://benryves.com/bin/brass/), a z80 assembler created by Ben Ryves.
 
 ```z80
 ;Converts a 24 bit unsigned int pointed to by HL to BCD
