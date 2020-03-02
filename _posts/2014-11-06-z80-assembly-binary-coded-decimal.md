@@ -111,8 +111,11 @@ _dispBCDDigits:
     add a,'0'
     push hl
     push bc
-    ;Replace this with anything that takes a char code in 'A' and displays it
-    b_call(_VPutMap)
+    
+    ;Replace this call with anything that takes a char code in register A and displays it.
+    ;For example, on the z80-based TI calculators, one might use b_call(_VPutMap)
+    call YourCharacterDisplayRoutine
+    
     pop bc
     pop hl
     dec hl
