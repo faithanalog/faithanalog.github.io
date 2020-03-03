@@ -19,6 +19,8 @@ at actually detecting kid-friendly content. For example, Pony Music Videos
 (PMVs), which are fan made cuts of My Little Pony video footage over top
 unrelated songs, have been getting flagged quite a bit, [even when the song has
 obviously explicit lyrics.](https://youtu.be/rl2MUeiOngg)
+(EDIT 2020-03-02: this video has since been un-marked as "For Kids",
+so you'll have to take my word that it was "For Kids" when this post was written.)
 
 ## The Script
 
