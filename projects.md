@@ -8,6 +8,7 @@ title: Projects
 - [faithanalog/x](https://github.com/faithanalog/x) - misc scripts and small projects
 - [scala image compressor](https://github.com/faithanalog/ImageCompress) - barebones [discrete cosine transform](https://en.wikipedia.org/wiki/Discrete_cosine_transform) implementation
 - [potc-dart](https://github.com/faithanalog/potc-dart) - dart port of the ludum dare game "prelude of the chambered"
+- [sedfuck](https://github.com/faithanalog/sedfuck) - implementation of [brainfuck](https://esolangs.org/wiki/brainfuck#Language_overview) in POSIX-compliant sed
 
 ### Calculator
 

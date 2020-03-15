@@ -14,6 +14,11 @@ title: Artemis
 
 {% include contact.md %}
 
+## Testimonials
+"She's like a fairy that leaves a trail of matrix letters behind her or some shit"
+
+"She's peanut butter and bananas. It sounds like it doesn't make sense, but then you try it and it works"
+
 ## Blog
 
 {% for post in site.posts %}- {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
