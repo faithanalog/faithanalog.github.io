@@ -3,7 +3,7 @@ layout: post
 title: "Declawing the Dragon - Voice Coding in 2020"
 ---
 
-In this post I am going to talk about programming with speech recognition software, also known as voice coding. Voice coding as a concept is nothing new, though you may not have heard of it. Here are some talks you can check out if you want to see what this actually look like in practice:
+In this post I am going to talk about programming with speech recognition software, also known as voice coding. Voice coding as a concept is nothing new, though you may not have heard of it. Here are some talks you can check out if you want to see what this actually looks like in practice:
 - [PYCON US 2013 - Using Python to Code by Voice](https://www.youtube.com/watch?v=OWyMA_bT7UI)
 - [The Eleventh HOPE (2016): Coding by Voice with Open Source Speech Recognition](https://www.youtube.com/watch?v=YRyYIIFKsdU)
 - [DECONSTRUCT 2019: Emily Shea - Voice Driven Development](https://www.deconstructconf.com/2019/emily-shea-voice-driven-development)
