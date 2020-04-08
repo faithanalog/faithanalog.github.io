@@ -8,7 +8,7 @@ In this post I am going to talk about programming with speech recognition softwa
 - [The Eleventh HOPE (2016): Coding by Voice with Open Source Speech Recognition](https://www.youtube.com/watch?v=YRyYIIFKsdU)
 - [DECONSTRUCT 2019: Emily Shea - Voice Driven Development](https://www.deconstructconf.com/2019/emily-shea-voice-driven-development)
 
-Until the past few years, one thing all of the tools for this had in common is that they relied on a piece of software called Dragon, a dictation tool developed by a company called Nuance. It quite pricey at $300, but it's the best you can get for running dictation on your local machine. Unfortunately, it only runs on Windows; previously, there was a macOS version, but that was discontinued in 2018.
+Until the past few years, one thing all of the tools for this had in common is that they relied on a piece of software called Dragon, a dictation tool developed by a company called Nuance. It's quite pricey at $300, but it's the best you can get for running dictation on your local machine. Unfortunately, it only runs on Windows; previously, there was a macOS version, but that was discontinued in 2018.
 
 This was the big barrier for nearly every voice coding software out there. Sure, there were some tricks that allowed you to run Dragon in a virtual machine or on some other piece of hardware, but Dragon was always somewhere in the equation if you wanted something that was actually usable.
 
