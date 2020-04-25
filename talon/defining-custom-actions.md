@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: talon
 title: Defining Custom Actions
+date: 2020-4-24
 ---
 
 This post covers defining custom actions. Custom actions allow you to create a single voice binding for an action, while providing multiple context-specific implementations of that action. For example, many applications have different key shortcuts on macOS than they do on Linux. Creating actions for your commands allows you to specify these shortcuts for each OS separately.
