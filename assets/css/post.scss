@@ -39,7 +39,7 @@ pre code {
     display: block;
 }
 
-p code {
+:not(pre) code {
     background-color: $background-accent;
     padding-left: 0.1em;
     padding-right: 0.1em;
