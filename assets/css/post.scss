@@ -34,8 +34,14 @@ code {
 }
 
 pre code {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 0.2em;
     display: block;
 }
 
+p code {
+    background-color: $background-accent;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    border-radius: 2px;
+}
