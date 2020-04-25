@@ -3,6 +3,10 @@ layout: default
 title: Projects
 ---
 
+### Accessibility
+
+- [talon notes](/talon) - personal documentation of [talon voice](https://talonvoice.com) tips and tricks.
+
 ### Uncategorized
 
 - [faithanalog/x](https://github.com/faithanalog/x) - misc scripts and small projects
