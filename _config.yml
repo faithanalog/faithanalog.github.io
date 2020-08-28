@@ -11,18 +11,17 @@ repository: "faithanalog/faithanalog.github.io"
 # SEO stuff
 description: "artemis's projects and blog"
 author:
-  twitter: "artemis_coven"
+  twitter: "artemiseverfree"
 twitter:
-  username: "artemis_coven"
+  username: "artemiseverfree"
   card: summary
 logo: "https://artemis.sh/assets/images/logo.png"
 social:
   name: Artemis
   links:
     - https://github.com/faithanalog
-    - https://twitter.com/artemis_coven
-    - https://t.me/artemis_coven
-    - https://ko-fi.com/faithalderson
+    - https://twitter.com/artemiseverfree
+    - https://t.me/artemis_everfree
 
 markdown: kramdown
 plugins:
