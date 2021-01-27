@@ -2,7 +2,7 @@
 layout: post
 title: "z80 Assembly: Binary-Coded Decimal"
 ---
-One method for display numbers that take more than 16 bits is to convert it to
+One method for displaying numbers larger than 16 bits is to convert it to
 Binary Coded Decimal (BCD) first, and display the result. BCD works by using
 four bits to store each decimal (base 10) digit of a number. The following code
 can convert a number to BCD, and display it. It's currently written to convert
