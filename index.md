@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Artemis
+title: Artemis Everfree
 ---
 
 ## Highlighted Projects
