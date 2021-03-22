@@ -3,10 +3,7 @@ layout: post
 title: "Your Anti-bot is Not Accessible"
 ---
 
-
-## TL;DR: The Thesis
-
-Input sequencing and automation tools such as [autohotkey scripts](https://www.autohotkey.com/), hardware macros, auto-clickers, and turbo buttons are important accessibility tools that allow people with disabilities to play games they'd otherwise be unable to play. These tools are often banned in multiplayer titles, particularly MMORPGs, in the name of fairness and bot prevention. I argue that these tools should be allowed, or even implemented within the game itself. With the recognition that a line has to be drawn somewhere, I suggest that a tool should be classified as a bot only if it automatically makes meaningful decisions in response to stimuli provided directly by the game, creating a feedback loop that does not involve the player. Further, I suggest that in the games that can't allow external tools fairly, first-party accessibility features can still make the game playable for more people.
+TL;DR: Input sequencing and automation tools such as [autohotkey scripts](https://www.autohotkey.com/), hardware macros, auto-clickers, and turbo buttons are important accessibility tools that allow people with disabilities to play games they'd otherwise be unable to play. These tools are often banned in multiplayer titles, particularly MMORPGs, in the name of fairness and bot prevention. I argue that these tools should be allowed, or even implemented within the game itself. With the recognition that a line has to be drawn somewhere, I suggest that a tool should be classified as a bot only if it automatically makes meaningful decisions in response to stimuli provided directly by the game, creating a feedback loop that does not involve the player. Further, I suggest that in the games that can't allow external tools fairly, first-party accessibility features can still make the game playable for more people.
 
 
 ## Who needs these things?
