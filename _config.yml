@@ -10,8 +10,7 @@ repository: "faithanalog/faithanalog.github.io"
 
 # SEO stuff
 description: "artemis's projects and blog"
-author:
-  twitter: "artemiseverfree"
+author: "Artemis Everfree"
 twitter:
   username: "artemiseverfree"
   card: summary
