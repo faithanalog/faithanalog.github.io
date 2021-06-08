@@ -2,11 +2,11 @@
 layout: post
 title: "Prelude of the Chambered in Dart"
 ---
-I was watching Notch write what was essentially a re-implementation of Doom in
+I was watching `[REDACTED]` write what was essentially a re-implementation of Doom in
 Dart recently, and it inspired me to port Prelude of the Chambered (PotC) to
 Dart.
 
-Prelude of the Chambered is a game made by Notch for the [Ludum
+Prelude of the Chambered is a game made by `[REDACTED]` for the [Ludum
 Dare](http://www.ludumdare.com/compo/) competition awhile ago. It can run in
 the browser, but the problem is it's a java applet. These days, browsers throw
 warning after warning at anyone loading an applet, and that's assuming they
