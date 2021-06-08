@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Lua Hashbang - Executable Lua Scripts"
+title: "Extended Lua Hashbang - Portable Lua Scripts"
 ---
 
-So you have a lua file, and you want to be able to run it from the command line like `./your_script.lua`. In languages like python or ruby you would accomplish this by adding `#!/usr/bin/env ruby` or `#!/usr/bin/env python` as the first line of the file. The `#!` magic pattern, known as a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) (sheh-bang) or hashbang, tells linux to use a specific command to execute the file. However, the python and ruby examples only work because `#` starts a comment in those languages, so the interpreter ignores it. In lua, our comments start with `--`, not `#`, so we need to get clever.
+
+So you have a lua file, and you want to be able to run it from the command line like `./your_script.lua`. In languages like python or ruby you would accomplish this by adding `#!/usr/bin/env ruby` or `#!/usr/bin/env python` as the first line of the file. The `#!` magic pattern, known as a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) (sheh-bang) or hashbang, tells linux to use a specific command to execute the file. You can do this in Lua too, but it's not the most portable option.
+
+If you use `#!/usr/bin/env lua`, it'll work just fine as long as a program named `lua` exists. However, some people use an alternative lua implementation called [LuaJIT](https://luajit.org/). LuaJIT provides an executable named `luajit`, so the simple shebang won't find it unless the person running your code has added `lua` as an alias to `luajit`. If your code is compatible with both the reference Lua and LuaJIT, it's nice to make your script work with both out of the box.
 
 The following solution is modified from [code by William Ahern on the lua-l mailing list](http://lua-users.org/lists/lua-l/2015-01/msg00633.html). This will search `$PATH` for `lua`, `lua5*`, and `luajit*`, executing the script with first one it finds:
 
@@ -27,7 +30,9 @@ _=nil
 print("lua code here!")
 ```
 
-So there you have it. Add those 14 lines at the top of your lua script, mark it as executable with `chmod +x your_script.lua`, and you're done! You can now run `./your_script.lua` as a command.
+So there you have it. Add those 14 lines at the top of your lua script, mark it as executable with `chmod +x your_script.lua`, and you're done! You can now run `./your_script.lua` as a command on a system with `lua` or a system with `luajit`.
+
+We'll get into this in the next section, but that's just linux shell script code at the top there. You could extend this solution even further to do fun things like auto-installing dependencies with `luarocks`.
 
 ## Wow, how does that even work?
 
@@ -58,3 +63,4 @@ There's one other nuance of shell scripts that makes this work. Most scripting l
 Well, `sh` and derivatives like `bash` work differently. They parse the file line by line as they execute, instead of parsing the whole thing at once. That means they don't care if you have a syntax error half way down the file; if they never get to that line of code then the error doesn't exist! Tools like [makeself](https://makeself.io/) even use this behavior to create self-extracting tar files, by adding a small shell script to the beginning of the tar file that extracts the rest of it.
 
 And that's it! That's all the magic. Now go write some lua scripts!
+
