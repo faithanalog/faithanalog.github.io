@@ -15,9 +15,12 @@ title: Artemis Everfree
 {% include contact.md %}
 
 ## Testimonials
+
 "She's like a fairy that leaves a trail of matrix letters behind her or some shit"
 
-"She's peanut butter and bananas. It sounds like it doesn't make sense, but then you try it and it works"
+"When she said she was committing fashion crimes, I wasn't expecting high treason"
+
+"She's a lil' creature!!"
 
 ## Blog
 
