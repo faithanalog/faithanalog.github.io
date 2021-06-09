@@ -25,6 +25,11 @@ title: Projects
 - [pagerenc](https://github.com/faithanalog/pagerenc) - haskell implementation of [POCSAG](https://en.wikipedia.org/wiki/POCSAG) and [FLEX](https://en.wikipedia.org/wiki/FLEX_%28protocol%29) encoding.
 
 
+### Utility
+- [permafrost](https://github.com/faithanalog/permafrost) - sleeps until a signal is received and then exits. useful for one-shot [runit](http://smarden.org/runit/) scripts.
+- [lua-subproc](https://github.com/faithanalog/lua-subproc) - lua library; converts an array of program arguments to a single escaped string suitable for `os.execute()`.
+
+
 ### Uncategorized
 
 - [faithanalog/x](https://github.com/faithanalog/x) - misc scripts and small projects.
