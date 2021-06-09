@@ -27,7 +27,7 @@ title: Projects
 
 ### Utility
 - [permafrost](https://github.com/faithanalog/permafrost) - sleeps until a signal is received and then exits. useful for one-shot [runit](http://smarden.org/runit/) scripts.
-- [lua-subproc](https://github.com/faithanalog/lua-subproc) - lua library; converts an array of program arguments to a single escaped string suitable for `os.execute()`.
+- [lua-subproc](https://github.com/faithanalog/lua-subproc) - lua library. converts an array of program arguments to a single escaped string suitable for `os.execute()`.
 
 
 ### Uncategorized
